@@ -1,11 +1,11 @@
 <?php
-require __DIR__ . '/header.php';
-require __DIR__ . '/data.php';
+require __DIR__ . '/MylAnt-some-teams/header.php';
+require __DIR__ . '/MylAnt-some-teams/print-table.php';
 ?>
 
 <body>
     <div class="container">
-        <!--Table with categories in first row-->
+        <!--Table with categories in the first row-->
         <table>
             <tr>
                 <th>Team</th>
@@ -13,7 +13,7 @@ require __DIR__ . '/data.php';
                 <th>City</th>
                 <th>Last time champions</th>
             </tr>
-            <!--Link to a PHP file that loops through the categories-->
+            <!--Link to a PHP file that loops through the data of each team and displays them-->
         </table>
     </div>
 </body>

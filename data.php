@@ -1,5 +1,6 @@
 <?php
 
+//Array containing all teams and their data.
 $teams = [
     'Arsenal' => [
         'league' => 'Premier league',
