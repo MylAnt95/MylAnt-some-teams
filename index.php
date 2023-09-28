@@ -1,6 +1,5 @@
 <?php
-require __DIR__ . '/MylAnt-some-teams/header.php';
-require __DIR__ . '/MylAnt-some-teams/print-table.php';
+require __DIR__ . '/header.php';
 ?>
 
 <body>
@@ -14,6 +13,7 @@ require __DIR__ . '/MylAnt-some-teams/print-table.php';
                 <th>Last time champions</th>
             </tr>
             <!--Link to a PHP file that loops through the data of each team and displays them-->
+            <?php require __DIR__ . '/print-table.php'; ?>
         </table>
     </div>
 </body>
