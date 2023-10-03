@@ -7,8 +7,9 @@ require __DIR__ . '/teams-total.php';
     <div class="container">
         <!--Table with categories in the first row-->
         <table>
+            <p class="strong">Unique cities:</p>
             <?php require __DIR__ . '/unique-city.php'; ?>
-            <p>Total teams <?=$teamCount?></p>          
+            <p class="strong">Total teams <?= $teamCount ?></p>
             <tr>
                 <th>Team</th>
                 <th>League</th>
@@ -20,4 +21,5 @@ require __DIR__ . '/teams-total.php';
         </table>
     </div>
 </body>
+
 </html>

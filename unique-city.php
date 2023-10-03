@@ -5,7 +5,7 @@ require __DIR__ . '/data.php';
 $uniqueCities = [];
 
 //Loops through $teams array and stores the cities in the empty array.
-foreach($teams as $team) {
+foreach ($teams as $team) {
     $uniqueCities[] = $team['city'];
 };
 
@@ -13,9 +13,9 @@ foreach($teams as $team) {
 $uniqueCities = array_unique($uniqueCities);
 
 //Loops through $uniqueCity array and displays all the unique city names.
-foreach($uniqueCities as $uniqueCity) { ?>
-   <p><?= $uniqueCity ?></p> 
-   <?php
+foreach ($uniqueCities as $uniqueCity) { ?>
+    <p><?= $uniqueCity ?></p>
+<?php
 };
 
 ?>
