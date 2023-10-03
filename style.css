@@ -1,6 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: auto;
-  width: 50%;
+  width: fit-content;
   background-color: blueviolet;
 }
 .container {
@@ -10,18 +13,26 @@ body {
   box-shadow: 0px 0px 3px 3px rgb(0 0 0 / 0.2);
   border-radius: 5px;
   height: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
 }
 .table,
 tr,
 td,
 th {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 3px;
+  background-color: rgb(204, 204, 204);
+  padding: 5px;
 }
 th {
   text-align: start;
+  background-color: gray;
 }
 .strong {
   font-weight: bold;
+}
+.unique-total {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }

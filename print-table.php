@@ -12,6 +12,7 @@ foreach ($teams as $team => $teamInfo) {
         <td><?= $teamInfo['league']; ?></td>
         <td><?= $teamInfo['last-time-champions']; ?></td>
         <td><?= $teamInfo['city']; ?></td>
+        <td><a href="<?= $teamInfo['url']; ?>"><?= $teamInfo['url']; ?></a></td>
     </tr>
 <?php
 }; ?>
