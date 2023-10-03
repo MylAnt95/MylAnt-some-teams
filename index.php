@@ -6,7 +6,7 @@ require __DIR__ . '/teams-total.php';
 <body>
     <div class="container">
         <div class="unique-total">
-            <!--Require PHP file that displays unique and total of teams -->
+            <!--Require PHP file that displays unique and total of teams. -->
             <p class="strong">Unique cities:</p>
             <?php require __DIR__ . '/unique-city.php'; ?>
             <p class="strong">Total teams: <?= $teamCount ?></p>

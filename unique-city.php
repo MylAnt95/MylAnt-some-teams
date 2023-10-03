@@ -9,7 +9,7 @@ foreach ($teams as $team) {
     $uniqueCities[] = $team['city'];
 };
 
-//checks and stores only unique values
+//checks and stores only unique values.
 $uniqueCities = array_unique($uniqueCities);
 
 //Loops through $uniqueCity array and displays all the unique city names.
